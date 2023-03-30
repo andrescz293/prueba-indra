@@ -1,6 +1,6 @@
 import { StyleSheet,TouchableHighlight,Text, Button } from "react-native"
-import { showAlert } from "./util/generalFunctions"
-import { colors } from "./global/constants"
+import { showAlert } from "../util/generalFunctions"
+import { colors } from "../global/constants"
 
 const BtnChange = ({typeColor , setColor}) => {
 
